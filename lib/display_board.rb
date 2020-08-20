@@ -13,4 +13,4 @@ def display_board_center_X (board= [" ","X"," "," "," "," "," "," "," "])
   puts " #{board[3]} |#{board[4]}| #{board[5] } "
   puts "-----------"
   puts " #{board[6]} |#{board[7]}| #{board[8] } "
-
+end
