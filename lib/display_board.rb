@@ -8,5 +8,10 @@ def display_board(board= [" "," "," "," "," "," "," "," "," "])
   puts " #{board[6]} |#{board[7]}| #{board[8] } "
 end
 
-puts display_board center X (board[1] = X)
+def display_board_center_X (board= [" "," "," "," "," "," "," "," "," "])
+   puts " #{board[0]} |#{board[1]}| #{board[2] } "
+  puts "-----------"
+  puts " #{board[3]} |#{board[4]}| #{board[5] } "
+  puts "-----------"
+  puts " #{board[6]} |#{board[7]}| #{board[8] } "
 
